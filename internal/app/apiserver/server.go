@@ -22,7 +22,7 @@ const (
 )
 
 var (
-	errIncorrectEmailOrPassword = errors.New("неправильный логин или пароль")
+	errIncorrectEmailOrPassword = errors.New("invalid email or password")
 	errNotAuthenticated         = errors.New("not authenticated")
 )
 
