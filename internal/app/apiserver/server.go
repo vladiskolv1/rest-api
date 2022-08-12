@@ -23,7 +23,7 @@ const (
 
 var (
 	errIncorrectEmailOrPassword = errors.New("invalid email or password")
-	errNotAuthenticated         = errors.New("not authenticated")
+	errNotAuthenticated         = errors.New("не авторизован")
 )
 
 type ctxType int8
